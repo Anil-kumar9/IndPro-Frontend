@@ -1,0 +1,12 @@
+body {
+  padding-top: 56px; /* Space for the fixed navbar */
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 15px;
+}
+
+.main-content {
+  padding: 15px;
+}

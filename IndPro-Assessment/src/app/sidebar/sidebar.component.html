@@ -1,0 +1,13 @@
+<div class="sidebar" [ngClass]="{'d-none d-md-block': !isSidebarVisible}">
+  <h4>Sidebar</h4>
+  <ul class="list-group">
+    <p>Indpro</p>
+    <p>About</p>
+    <p>Contact</p>
+    <p>References</p>
+  </ul>
+</div>
+
+<button class="btn btn-primary d-md-none" (click)="toggleSidebar()">Toggle Sidebar</button>
+
+

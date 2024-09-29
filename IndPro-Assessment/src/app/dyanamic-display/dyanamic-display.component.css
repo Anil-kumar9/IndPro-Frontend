@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+  .sidebar {
+      display: none; /* Hide by default */
+  }
+
+  .sidebar.ng-show {
+      display: block; /* Show when toggled */
+  }
+}
+
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+  background-color: #0056b3;
+}
+
+
+body {
+  padding-top: 56px; /* Space for the fixed navbar */
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 15px;
+}
+
+.main-content {
+  padding: 15px;
+}
