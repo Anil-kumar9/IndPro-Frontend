@@ -1,3 +1,6 @@
+
+
+
 body {
   padding-top: 56px; /* Space for the fixed navbar */
 }
@@ -9,4 +12,8 @@ body {
 
 .main-content {
   padding: 15px;
+}
+
+.container {
+ margin-left: 180px;
 }
